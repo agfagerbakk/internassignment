@@ -1,0 +1,11 @@
+/home/agf/internassignment/bin/Debug/netcoreapp2.2/internassignment.deps.json
+/home/agf/internassignment/bin/Debug/netcoreapp2.2/internassignment.runtimeconfig.json
+/home/agf/internassignment/bin/Debug/netcoreapp2.2/internassignment.runtimeconfig.dev.json
+/home/agf/internassignment/bin/Debug/netcoreapp2.2/internassignment.dll
+/home/agf/internassignment/bin/Debug/netcoreapp2.2/internassignment.pdb
+/home/agf/internassignment/obj/Debug/netcoreapp2.2/internassignment.csprojAssemblyReference.cache
+/home/agf/internassignment/obj/Debug/netcoreapp2.2/internassignment.csproj.CoreCompileInputs.cache
+/home/agf/internassignment/obj/Debug/netcoreapp2.2/internassignment.AssemblyInfoInputs.cache
+/home/agf/internassignment/obj/Debug/netcoreapp2.2/internassignment.AssemblyInfo.cs
+/home/agf/internassignment/obj/Debug/netcoreapp2.2/internassignment.dll
+/home/agf/internassignment/obj/Debug/netcoreapp2.2/internassignment.pdb
