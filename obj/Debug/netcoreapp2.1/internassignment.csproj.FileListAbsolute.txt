@@ -1,0 +1,4 @@
+/home/agf/internassignment/obj/Debug/netcoreapp2.1/internassignment.csprojAssemblyReference.cache
+/home/agf/internassignment/obj/Debug/netcoreapp2.1/internassignment.csproj.CoreCompileInputs.cache
+/home/agf/internassignment/obj/Debug/netcoreapp2.1/internassignment.AssemblyInfoInputs.cache
+/home/agf/internassignment/obj/Debug/netcoreapp2.1/internassignment.AssemblyInfo.cs
