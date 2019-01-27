@@ -2,3 +2,13 @@
 /home/agf/internassignment/obj/Debug/netcoreapp2.1/internassignment.csproj.CoreCompileInputs.cache
 /home/agf/internassignment/obj/Debug/netcoreapp2.1/internassignment.AssemblyInfoInputs.cache
 /home/agf/internassignment/obj/Debug/netcoreapp2.1/internassignment.AssemblyInfo.cs
+/home/agf/internassignment/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/home/agf/internassignment/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/home/agf/internassignment/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/home/agf/internassignment/bin/Debug/netcoreapp2.1/internassignment.deps.json
+/home/agf/internassignment/bin/Debug/netcoreapp2.1/internassignment.runtimeconfig.json
+/home/agf/internassignment/bin/Debug/netcoreapp2.1/internassignment.runtimeconfig.dev.json
+/home/agf/internassignment/bin/Debug/netcoreapp2.1/internassignment.dll
+/home/agf/internassignment/bin/Debug/netcoreapp2.1/internassignment.pdb
+/home/agf/internassignment/obj/Debug/netcoreapp2.1/internassignment.dll
+/home/agf/internassignment/obj/Debug/netcoreapp2.1/internassignment.pdb
