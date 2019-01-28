@@ -45,48 +45,49 @@ namespace internassignment
         {
             return $"Vessel: Vessel name: {name}, Year built: {yearBuilt}";
         }
+    }
 
 
-        class Ferry : Vessel
+    class Ferry : Vessel
+    {
+        public int Passengers { get; set; }
+
+        public Ferry(string Name, string Year, string Speed, int Passengers) : base(Name, Year, Speed) => this.Passengers = Passengers;
+
+
+        public override string ToString()
         {
-            public int passengers { get; set; }
+            return $"{base.ToString()}, Amount of passengers: {Passengers}";
 
-            public Ferry(string Name, string Year, string Speed, int Passengers) : base(Name, Year, Speed) => this.passengers = passengers;
-
-
-            public override string ToString()
-            {
-                return $"{base.ToString()} Amount of passengers: {passengers}";
-
-            }
         }
-        class Tugboat : Vessel
+    }
+    class Tugboat : Vessel
+    {
+        public int MaxForce { get; set; }
+
+        public Tugboat(string Name, string Year, string Speed, int MaxForce) : base(Name, Year, Speed) => this.MaxForce = MaxForce;
+
+
+        public override string ToString()
         {
-            public int maxForce { get; set; }
-
-            public Tugboat(string Name, string Year, string Speed, int MaxForce) : base(Name, Year, Speed) { }
-
-
-            public override string ToString()
-            {
-                return $" {base.ToString()} Vessels max force: {maxForce}";
-            }
+            return $" {base.ToString()}, Vessels max force: {MaxForce}";
         }
+    }
 
-        class Submarine : Vessel
+    class Submarine : Vessel
+    {
+        public int MaxDepth { get; set; }
+
+        public Submarine(string Name, string Year, string Speed, int MaxDepth) : base(Name, Year, Speed) => this.MaxDepth = MaxDepth;
+
+
+        public override string ToString()
         {
-            public int maxDepth { get; set; }
-
-            public Submarine(string Name, string Year, string Speed, int MaxDepth) : base(Name, Year, Speed) { }
-
-
-            public override string ToString()
-            {
-                return $"{base.ToString()} Vessels max depth: {maxDepth}";
-            }
+            return $"{base.ToString()}, Vessels max depth: {MaxDepth}";
         }
     }
 }
+
 
 
 

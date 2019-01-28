@@ -31,7 +31,7 @@ namespace internassignment.Tests
         }
 
         [Fact]
-        public void ToStringPrints()
+        public void correctToStringPrints()
         {
             string expectedOut = "Vessel: Vessel name: Nemo, Year built: 2001";
             var vessel = new Vessel("Nemo", "2001", "30" );
@@ -39,4 +39,40 @@ namespace internassignment.Tests
         }
 
     }
+
+    public class Ferry_Test
+    {
+        [Fact]
+        public void correctToStringPrints(){
+            
+            string expectedOut = "Vessel: Vessel name: PerryTheFerry, Year built: 2001, Amount of passengers: 2000";
+            var ferry = new Ferry("PerryTheFerry", "2001", "30", 2000);
+            Assert.Equal(expectedOut, ferry.ToString()); 
+        }
+        
+    }
+
+    public class Tugboat_Test{
+
+        [Fact]
+        public void correctToStringPrints(){
+
+            string expectedOut = "Vessel: Vessel name: ThugBoat, Year built: 2001, Vessels max force: 2003";
+            var tugboat = new Tugboat("ThugBoat", "2001", "30", 2003);
+            Assert.Equal(expectedOut, tugboat.ToString());
+        }
+    }
+
+    
+    public class Submarine_Test{
+
+        [Fact]
+        public void correctToStringPrints(){
+
+            string expectedOut = "Vessel: Vessel name: YellowSub, Year built: 2001, Vessels max depth: 2003";
+            var submarine = new Submarine("YellowSub", "2001", "30", 2003);
+            Assert.Equal(expectedOut, submarine.ToString());
+        }
+    }
+
 }
