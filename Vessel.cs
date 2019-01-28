@@ -14,7 +14,7 @@ namespace internassignment
         public Vessel(string Name, string Year, string Speed)
         {
 
-            if(int.TryParse(Year, out int year)){
+            if(!int.TryParse(Year, out int year)){
                 throw new ArgumentException(nameof(Year));
             }  
 
@@ -49,7 +49,7 @@ namespace internassignment
 
         class Ferry : Vessel
         {
-            private int passengers { get; set; }
+            public int passengers { get; set; }
 
             public Ferry(string Name, string Year, string Speed, int Passengers) : base(Name, Year, Speed) => this.passengers = passengers;
 
@@ -62,7 +62,7 @@ namespace internassignment
         }
         class Tugboat : Vessel
         {
-            private int maxForce { get; set; }
+            public int maxForce { get; set; }
 
             public Tugboat(string Name, string Year, string Speed, int MaxForce) : base(Name, Year, Speed) { }
 
@@ -75,7 +75,7 @@ namespace internassignment
 
         class Submarine : Vessel
         {
-            private int maxDepth { get; set; }
+            public int maxDepth { get; set; }
 
             public Submarine(string Name, string Year, string Speed, int MaxDepth) : base(Name, Year, Speed) { }
 
